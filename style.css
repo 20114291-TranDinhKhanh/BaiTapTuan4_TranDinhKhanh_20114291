@@ -1,0 +1,147 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.wrapper {
+    margin: auto;
+    width: 960px;
+    height: 100px;
+    background-color: #AC4B16;
+}
+
+.header>h1 {
+    position: relative;
+    text-shadow: 4px 0px 8px white;
+    font-size: xxx-large;
+    color: green;
+    left: 1rem;
+}
+
+.section-top>img {
+    width: 100%;
+}
+
+.menu>div {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    background-color: antiquewhite;
+}
+
+.menu>div>span>a {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    display: block;
+    block-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #AC4B16;
+}
+
+.section-left-title {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    color: #AC4B16;
+}
+
+.section-left-center {
+    position: relative;
+    width: 25rem;
+    top: 3rem;
+    color: #AC4B16;
+    left: 3rem;
+    font-style: italic;
+    font-size: large;
+    padding: 1rem 0rem;
+}
+
+.section-left-bottom>input {
+    position: relative;
+    border: none;
+    top: 3rem;
+    outline: none;
+    border-bottom: 1px solid #333;
+    display: flow-root;
+    padding: 1rem 0rem;
+    width: 22rem;
+    left: 3rem;
+    font-size: large;
+}
+
+.input-button {
+    position: relative;
+    border: none;
+    outline: none;
+    top: 6rem;
+    padding: 0.5rem 1rem;
+    background-color: #7F7E06;
+    left: 3rem;
+    color: white;
+}
+
+.section-right {
+    border: 1rem;
+    border-style: none;
+    border-radius: 2rem;
+    border-color: #654037;
+}
+
+.section-right-top {
+    position: relative;
+    left: 36rem;
+    bottom: 20rem;
+    font-size: large;
+    color: #654037;
+    padding-left: 2rem;
+    background-color: antiquewhite;
+    border-radius: 25px 25px;
+    width: 20rem;
+    height: 20rem;
+}
+
+.section-right-top>p {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 2rem 0rem;
+}
+
+.section-right-bottom {
+    position: relative;
+    left: 36rem;
+    bottom: 26rem;
+    font-size: x-large;
+    color: #654037;
+    width: 22rem;
+    background-color: white;
+    text-align: justify;
+}
+
+.section-right-bottom>p {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.section-right-center>div>li {
+    padding: 0.2rem;
+    position: relative;
+    left: 32rem;
+    bottom: 14rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer>img {
+    position: relative;
+    width: 100%;
+    bottom: 15rem;
+}
+
+.footer>p {
+    position: relative;
+    bottom: 17.5rem;
+    text-align: center;
+    font-size: x-large;
+}
